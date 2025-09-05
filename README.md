@@ -11,6 +11,28 @@
 ###
 
 <div align="center">
+  <svg viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="gradient" gradientTransform="rotate(90)">
+        <stop offset="0%" stop-color="#00f7ff" />
+        <stop offset="100%" stop-color="#0077ff" />
+      </linearGradient>
+    </defs>
+    <path d="M0,0 C300,150 900,50 1200,150 L1200,0 L0,0 Z" fill="url(#gradient)">
+      <animate attributeName="d" dur="6s" repeatCount="indefinite"
+        values="M0,0 C300,150 900,50 1200,150 L1200,0 L0,0 Z;
+                M0,0 C400,50 800,150 1200,100 L1200,0 L0,0 Z;
+                M0,0 C300,150 900,50 1200,150 L1200,0 L0,0 Z" />
+    </path>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="32" fill="white" font-family="Verdana, sans-serif">
+      👋 Hey there, I'm Anubisx404
+    </text>
+  </svg>
+</div>
+
+###
+
+<div align="center">
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
   <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
