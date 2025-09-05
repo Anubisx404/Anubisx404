@@ -79,7 +79,7 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" alt="firebase logo" />
   <img width="12" />
-  <img src="https://raw.githubusercontent.com/supabase/supabase/master/web/static/supabase-logo-icon.png" height="40" alt="supabase logo" />
+  <img src="https://avatars.githubusercontent.com/u/54469796?s=200&v=4" height="40" alt="supabase logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="40" alt=".net logo" />
   <img width="12" />
