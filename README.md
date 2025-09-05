@@ -20,6 +20,14 @@
 
 <h3 align="left">👩‍💻  About Me</h3>
 
+<p align="left">
+  🎓 I'm a double major in <strong>Physics</strong> and <strong>Computer Science</strong>, passionate about blending scientific problem-solving with software engineering.<br><br>
+  📚 On the side, I’m diving deeper into <strong>Theoretical Computation</strong> and <strong>Cybersecurity</strong>, always looking to expand my understanding of how systems work at their core.<br><br>
+  🚀 I’ve worked on several projects, mainly with <strong>.NET</strong> and <strong>Flutter</strong> — with Flutter being my strongest area where I’ve gained solid experience in <strong>project management</strong> and <strong>full-stack development</strong>.<br><br>
+  🔧 I enjoy building applications, experimenting with new frameworks, and sharpening my skills in both <strong>mobile</strong> and <strong>cross-platform development</strong>.<br><br>
+  ⚡ Outside of code, I love tackling complex challenges that connect theory with practical solutions, whether in physics, computer science, or tech innovation.
+</p>
+
 ###
 
 
