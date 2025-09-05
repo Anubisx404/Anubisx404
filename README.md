@@ -32,6 +32,8 @@
 
 <h3 align="left">🛠 Languages and Tools</h3>
 
+###
+
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="c++ logo" />
   <img width="12" />
@@ -59,7 +61,7 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" height="40" alt="graphql logo" />
   <img width="12" />
-  <img src="https://raw.githubusercontent.com/surrealdb/icons/main/surrealdb-icon.svg" height="40" alt="surrealdb logo" />
+  <img src="https://raw.githubusercontent.com/surrealdb/surrealdb/main/img/icon.png" height="40" alt="surrealdb logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="40" alt="android logo" />
   <img width="12" />
@@ -77,9 +79,9 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" alt="firebase logo" />
   <img width="12" />
-  <img src="https://vectorwiki.com/images/uWXn9__supabase.svg" height="40" alt="supabase logo" />
+  <img src="https://raw.githubusercontent.com/supabase/supabase/master/web/static/supabase-logo-icon.png" height="40" alt="supabase logo" />
   <img width="12" />
-  <img src="https://upload.wikimedia.org/commons/7/7d/Microsoft_.NET_logo.svg" height="40" alt=".net logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="40" alt=".net logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo" />
   <img width="12" />
@@ -89,7 +91,6 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo" />
 </div>
-
 
 ###
 
