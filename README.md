@@ -5,7 +5,7 @@
 ###
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=3000&color=00F7FF&center=true&vCenter=true&lines=Hey+there!+👋;I'm+Anubisx404;Software+Engineer+%7C+Developer;Open+Source+Contributor;Tech+Enthusiast+🚀" alt="Animated Header" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=3000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hey+there!+👋;I'm+Anubisx404;Software+Engineer+%7C+Developer;Open+Source+Contributor;Tech+Enthusiast+🚀" alt="Animated Header" />
 </div>
 
 ###
@@ -15,10 +15,6 @@
   <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
   <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
 </div>
-
-###
-
-<h1 align="center">Hello There 👋</h1>
 
 ###
 
