@@ -80,7 +80,7 @@
   <img width="12" />
   <img src="https://avatars.githubusercontent.com/u/54469796?s=200&v=4" height="40" alt="supabase logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="40" alt=".net logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="40" alt="entity framework logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo" />
   <img width="12" />
@@ -93,7 +93,7 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" height="40" alt="jquery logo" />
   <img width="12" />
-  <img src="https://raw.githubusercontent.com/dotnet/EntityFramework.Docs/main/docs/media/logo.svg" height="40" alt="entity framework logo" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" height="40" alt=".NET logo" />
 </div>
 
 ###
