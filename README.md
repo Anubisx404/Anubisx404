@@ -5,29 +5,7 @@
 ###
 
 <div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
-</div>
-
-###
-
-<div align="center">
-  <svg viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-    <defs>
-      <linearGradient id="gradient" gradientTransform="rotate(90)">
-        <stop offset="0%" stop-color="#00f7ff" />
-        <stop offset="100%" stop-color="#0077ff" />
-      </linearGradient>
-    </defs>
-    <path d="M0,0 C300,150 900,50 1200,150 L1200,0 L0,0 Z" fill="url(#gradient)">
-      <animate attributeName="d" dur="6s" repeatCount="indefinite"
-        values="M0,0 C300,150 900,50 1200,150 L1200,0 L0,0 Z;
-                M0,0 C400,50 800,150 1200,100 L1200,0 L0,0 Z;
-                M0,0 C300,150 900,50 1200,150 L1200,0 L0,0 Z" />
-    </path>
-    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="32" fill="white" font-family="Verdana, sans-serif">
-      👋 Hey there, I'm Anubisx404
-    </text>
-  </svg>
+  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=3000&color=00F7FF&center=true&vCenter=true&lines=Hey+there!+👋;I'm+Anubisx404;Software+Engineer+%7C+Developer;Open+Source+Contributor;Tech+Enthusiast+🚀" alt="Animated Header" />
 </div>
 
 ###
