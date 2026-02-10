@@ -81,6 +81,7 @@
   <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/rabbitmq.png" alt="RabbitMQ"/></code>
   <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/qgis.png" alt="QGIS"/></code>
   <code><img width="50" src="https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro-40.svg" alt="Premiere_Pro"/></code>
+  <code><img width="50" src="https://www.adobe.com/cc-shared/assets/img/product-icons/svg/after-effects.svg" alt="After_Effects"/></code>
 </div>
 
 ###
