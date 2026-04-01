@@ -82,6 +82,7 @@
   <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/qgis.png" alt="QGIS"/></code>
   <code><img width="50" src="https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro-40.svg" alt="Premiere_Pro"/></code>
   <code><img width="50" src="https://www.adobe.com/cc-shared/assets/img/product-icons/svg/after-effects.svg" alt="After_Effects"/></code>
+  <code><img width="50" src="https://az-icons.com/export/icons/a39e7fd3307ff56cc26d5a64eec7bf3f.svg" alt="SignalR"/></code>
 </div>
 
 ###
