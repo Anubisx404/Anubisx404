@@ -22,7 +22,7 @@
   My academic and professional interests include <strong>Theoretical Computation</strong>, <strong>Cybersecurity</strong>, and the study of how systems are designed, structured, and optimized at a fundamental level. I also have a deep understanding of <strong>system design concepts</strong> and practical software development.<br><br>
 
   <strong>Professional Experience</strong><br>
-  I have worked on several projects using <strong>.NET</strong> and <strong>Flutter</strong>. I now have advanced experience in <strong>.NET</strong> at a level comparable to my experience with <strong>Flutter</strong>, and I have developed strong proficiency in both platforms.<br><br>
+  I have worked on several projects using <strong>.NET</strong> and <strong>Flutter</strong>. I have advanced experience in <strong>.NET</strong> and <strong>Flutter</strong>, and I have developed strong proficiency in both platforms.<br><br>
 
   <strong>Development Interests</strong><br>
   I enjoy building applications, exploring modern frameworks, and strengthening my skills in <strong>mobile</strong> and <strong>cross-platform development</strong>.<br><br>
