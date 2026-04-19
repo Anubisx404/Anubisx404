@@ -15,11 +15,20 @@
 <h3 align="left">About Me</h3>
 
 <p align="left">
+  <strong>Academic Background</strong><br>
   I am a double major in <strong>Physics</strong> and <strong>Computer Science</strong>, with a strong interest in combining scientific analysis with software engineering.<br><br>
-  My academic focus includes <strong>Theoretical Computation</strong> and <strong>Cybersecurity</strong>, with a continuous effort to deepen my understanding of systems at a fundamental level.<br><br>
-  I have worked on several projects, primarily using <strong>.NET</strong> and <strong>Flutter</strong>. Flutter is my strongest area, where I have gained substantial experience in <strong>project management</strong> and <strong>full-stack development</strong>.<br><br>
-  I enjoy building applications, exploring new frameworks, and strengthening my skills in both <strong>mobile</strong> and <strong>cross-platform development</strong>.<br><br>
-  Beyond programming, I value solving complex problems that connect theory with practical implementation across physics, computer science, and technology.
+
+  <strong>Technical Focus</strong><br>
+  My academic and professional interests include <strong>Theoretical Computation</strong>, <strong>Cybersecurity</strong>, and the study of how systems are designed, structured, and optimized at a fundamental level. I also have a deep understanding of <strong>system design concepts</strong> and practical software development.<br><br>
+
+  <strong>Professional Experience</strong><br>
+  I have worked on several projects using <strong>.NET</strong> and <strong>Flutter</strong>. I now have advanced experience in <strong>.NET</strong> at a level comparable to my experience with <strong>Flutter</strong>, and I have developed strong proficiency in both platforms.<br><br>
+
+  <strong>Development Interests</strong><br>
+  I enjoy building applications, exploring modern frameworks, and strengthening my skills in <strong>mobile</strong> and <strong>cross-platform development</strong>.<br><br>
+
+  <strong>Personal Approach</strong><br>
+  Outside of coding, I value solving complex problems that connect theory with practical implementation across physics, computer science, and technology.
 </p>
 
 <h3 align="left">Languages and Tools</h3>
