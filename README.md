@@ -85,5 +85,5 @@
 <br><br>
 
 <div align="center">
-  <img src="assets/footer-banner.svg" width="100%" style="border-radius: 50%; overflow: hidden;"/>
+  <img src="assets/footer-banner.svg" width="100%"/>
 </div>
