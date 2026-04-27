@@ -82,9 +82,8 @@
   <code><img width="50" src="https://aits.unt.edu/images/mathematica-logo.png" alt="Mathematica"/></code>
 </div>
 
-<br>
-<br>
+<div style="height: 40px;"></div>
 
 <div align="center">
-  <img src="assets/footer-banner.svg" alt="Abstract quantum banner" width="100%" />
+  <img src="assets/footer-banner.svg" width="100%" style="border-radius: 999px;" />
 </div>
