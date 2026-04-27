@@ -82,7 +82,11 @@
   <code><img width="50" src="https://aits.unt.edu/images/mathematica-logo.png" alt="Mathematica"/></code>
 </div>
 
-<div style="height: 40px;"></div>
+<ellipse cx="800" cy="140" rx="780" ry="125"
+         stroke="#7CFF9A"
+         stroke-opacity="0.2"
+         stroke-width="2"
+         fill="none"/>
 
 <div align="center">
   <img src="assets/footer-banner.svg" width="100%" style="border-radius: 999px;" />
