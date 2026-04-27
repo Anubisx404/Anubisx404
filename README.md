@@ -82,6 +82,8 @@
   <code><img width="50" src="https://aits.unt.edu/images/mathematica-logo.png" alt="Mathematica"/></code>
 </div>
 
+<br><br><br>
+
 <defs>
   <clipPath id="oval">
     <ellipse cx="800" cy="140" rx="780" ry="125"/>
