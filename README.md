@@ -85,5 +85,5 @@
 <h3 align="left">Statistics</h3>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Anubisx404&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph" />
+  <img src="assets/footer-banner.svg" alt="Abstract quantum banner" width="100%" />
 </div>
