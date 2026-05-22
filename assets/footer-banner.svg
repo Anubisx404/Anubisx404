@@ -60,13 +60,13 @@
 
   <!-- Texts -->
   <g transform="translate(800, 95)" text-anchor="middle">
-    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" fill-opacity="0.8" letter-spacing="8">
+    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="600" fill="#ffffff" fill-opacity="0.8" letter-spacing="8">
       BUILDING THE FUTURE — ONE COMMIT AT A TIME
     </text>
   </g>
 
-  <g transform="translate(800, 140)" text-anchor="middle">
-    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="500" fill="#7CFF9A" fill-opacity="0.9" letter-spacing="4">
+  <g transform="translate(800, 150)" text-anchor="middle">
+    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500" fill="#7CFF9A" fill-opacity="0.9" letter-spacing="4">
       github.com/Anubisx404
     </text>
   </g>

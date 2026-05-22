@@ -77,24 +77,24 @@
 
   <!-- Texts -->
   <g transform="translate(800, 150)" text-anchor="middle">
-    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="12" fill="#7CFF9A" fill-opacity="0.8">
+    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="12" fill="#7CFF9A" fill-opacity="0.8">
       SOFTWARE ENGINEER
     </text>
   </g>
 
   <g transform="translate(800, 260)" text-anchor="middle">
-    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="800" fill="url(#nameGrad)" letter-spacing="4">
+    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="130" font-weight="800" fill="url(#nameGrad)" letter-spacing="4">
       Mohamed Alaa
     </text>
   </g>
 
-  <g transform="translate(800, 340)" text-anchor="middle">
-    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#ffffff" fill-opacity="0.6" letter-spacing="6">
+  <g transform="translate(800, 360)" text-anchor="middle">
+    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="500" fill="#ffffff" fill-opacity="0.6" letter-spacing="6">
       PHYSICS  ·  COMPUTER SCIENCE  ·  CYBERSECURITY
     </text>
   </g>
 
-  <line x1="200" y1="420" x2="1400" y2="420" stroke="#7CFF9A" stroke-width="2" stroke-opacity="0.3">
+  <line x1="200" y1="450" x2="1400" y2="450" stroke="#7CFF9A" stroke-width="2" stroke-opacity="0.3">
     <animate attributeName="stroke-opacity" values="0.1;0.6;0.1" dur="4s" repeatCount="indefinite"/>
   </line>
 </svg>
