@@ -1,89 +1,149 @@
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Anubisx404.Anubisx404&" />
+  <img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/header-banner.svg" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=3000&color=00F7FF&center=true&vCenter=true&width=700&lines=Welcome;Anubisx404;Software+Engineer+%7C+Developer;Open+Source+Contributor;Technology+Enthusiast" alt="Animated Header" />
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"/></a>&nbsp;
+  <a href="https://youtube.com/@YOUR_YOUTUBE"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="28" alt="YouTube"/></a>&nbsp;
+  <a href="https://twitter.com/YOUR_TWITTER"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" height="28" alt="Twitter"/></a>&nbsp;
+  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email"/></a>
 </div>
+
+<br>
 
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="LinkedIn" />
-  <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="YouTube" />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Twitter" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=70&lines=%24+whoami;Software+Engineer+%7C+Physics+%2B+CS" alt="Terminal Typing"/>
 </div>
 
-<h3 align="left">About Me</h3>
-
-<p align="left">
-  <strong>Academic Background</strong><br>
-  I am a double major in <strong>Physics</strong> and <strong>Computer Science</strong>, with a strong interest in combining scientific analysis with software engineering.<br><br>
-
-  <strong>Technical Focus</strong><br>
-  My academic and professional interests include <strong>Theoretical Computation</strong>, <strong>Cybersecurity</strong>, and the study of how systems are designed, structured, and optimized at a fundamental level. I also have a deep understanding of <strong>system design concepts</strong> and practical software development.<br><br>
-
-  <strong>Professional Experience</strong><br>
-  I have worked on several projects using <strong>.NET</strong> and <strong>Flutter</strong>. I have advanced experience in <strong>.NET</strong> and <strong>Flutter</strong>, and I have developed strong proficiency in both platforms.<br><br>
-
-  <strong>Development Interests</strong><br>
-  I enjoy building applications, exploring modern frameworks, and strengthening my skills in <strong>mobile</strong> and <strong>cross-platform development</strong>.<br><br>
-
-  <strong>Personal Approach</strong><br>
-  Outside of coding, I value solving complex problems that connect theory with practical implementation across physics, computer science, and technology.
-</p>
-
-<h3 align="left">Languages and Tools</h3>
-
-<div align="left">
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap"/></code>
-  <code><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="Qt"/></code>
-  <code><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/WxWidgets.svg" alt="wxWidgets"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" alt="GraphQL"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/surrealdb/surrealdb/main/img/icon.png" alt="SurrealDB"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"/></code>
-  <code><img width="50" src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="Bash"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase"/></code>
-  <code><img width="50" src="https://avatars.githubusercontent.com/u/54469796?s=200&v=4" alt="Supabase"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"/></code>
-  <code><img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" alt="jQuery"/></code>
-  <code><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" alt=".NET"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/http.png" alt="HTTP"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/websocket.png" alt="WebSocket"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/grpc.png" alt="gRPC"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sass.png" alt="Sass"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/tailwind_css.png" alt="Tailwind CSS"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/swagger.png" alt="Swagger"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/auth0.png" alt="Auth0"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/svelte.png" alt="Svelte"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/blazor.png" alt="Blazor"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ziglang.png" alt="Zig"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/nginx.png" alt="Nginx"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/kali_linux.png" alt="Kali Linux"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/rabbitmq.png" alt="RabbitMQ"/></code>
-  <code><img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/qgis.png" alt="QGIS"/></code>
-  <code><img width="50" src="https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro-40.svg" alt="Premiere Pro"/></code>
-  <code><img width="50" src="https://www.adobe.com/cc-shared/assets/img/product-icons/svg/after-effects.svg" alt="After Effects"/></code>
-  <code><img width="50" src="https://az-icons.com/export/icons/a39e7fd3307ff56cc26d5a64eec7bf3f.svg" alt="SignalR"/></code>
-  <code><img width="50" src="https://aits.unt.edu/images/mathematica-logo.png" alt="Mathematica"/></code>
-</div>
-
-<br><br>
+<br>
 
 <div align="center">
-  <img src="assets/footer-banner2.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/divider.svg" width="100%"/>
+</div>
+
+<br>
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+### 🧬 &nbsp;About Me
+
+I'm a double major in **Physics** and **Computer Science** who bridges scientific rigor with production-grade software engineering.
+
+🔭 &nbsp;**Focus Areas** — Theoretical Computation, Cybersecurity, System Design
+
+🏗️ &nbsp;**Primary Stack** — .NET · Flutter · Cross-Platform Development
+
+🧠 &nbsp;**Interests** — Complex problem-solving that connects theory with practical implementation across physics, CS, and emerging technologies
+
+📡 &nbsp;**Currently** — Building applications, exploring modern frameworks, and contributing to open source
+
+</td>
+<td width="45%" valign="top">
+
+### 📊 &nbsp;GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Anubisx404&show_icons=true&theme=transparent&hide_border=true&title_color=00f7ff&icon_color=7b61ff&text_color=94a3b8&bg_color=00000000" width="100%" alt="Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Anubisx404&theme=transparent&hide_border=true&ring=00f7ff&fire=7b61ff&currStreakLabel=00f7ff&sideLabels=94a3b8&dates=475569&currStreakNum=c9d1d9&sideNums=c9d1d9" width="100%" alt="Streak"/>
+</div>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/divider.svg" width="100%"/>
+</div>
+
+<br>
+
+### ⚙️ &nbsp;Tech Stack
+
+<table>
+<tr>
+<td align="center" width="20%"><b>Languages</b></td>
+<td align="center" width="20%"><b>Frameworks</b></td>
+<td align="center" width="20%"><b>Databases</b></td>
+<td align="center" width="20%"><b>Infrastructure</b></td>
+<td align="center" width="20%"><b>Tools</b></td>
+</tr>
+<tr>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,cs,java,python,dart,zig&perline=3" alt="Languages"/>
+</td>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=dotnet,flutter,svelte,tailwind,bootstrap,jquery&perline=3" alt="Frameworks"/>
+</td>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,firebase,supabase&perline=3" alt="Databases"/>
+</td>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=docker,nginx,linux,bash,arduino,rabbitmq&perline=3" alt="Infrastructure"/>
+</td>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,graphql,sass,html,css&perline=3" alt="Tools"/>
+</td>
+</tr>
+</table>
+
+<br>
+
+<details>
+<summary><b>🔌 &nbsp;Protocols & Specialized Tools</b> <sup>(expand)</sup></summary>
+<br>
+<div align="center">
+
+| Category | Technologies |
+|:---|:---|
+| **Protocols** | HTTP · WebSocket · gRPC · GraphQL · SignalR |
+| **Auth & API** | Auth0 · Swagger / OpenAPI |
+| **Frameworks** | Blazor · Qt · wxWidgets |
+| **Scientific** | Mathematica |
+| **Creative** | Premiere Pro · After Effects · QGIS |
+
+</div>
+</details>
+
+<br>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/divider.svg" width="100%"/>
+</div>
+
+<br>
+
+<div align="center">
+
+### 📈 &nbsp;Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Anubisx404&bg_color=0a0a1a&color=94a3b8&line=00f7ff&point=7b61ff&area=true&area_color=00f7ff&hide_border=true&custom_title=Contribution%20Timeline" width="95%" alt="Activity Graph"/>
+
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anubisx404&layout=compact&theme=transparent&hide_border=true&title_color=00f7ff&text_color=94a3b8&bg_color=00000000&langs_count=8" width="42%" alt="Top Languages"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/divider.svg" width="100%"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Anubisx404&style=for-the-badge&color=0d1b2a&label=PROFILE+VIEWS" alt="Profile Views"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/footer-banner.svg" width="100%"/>
 </div>
