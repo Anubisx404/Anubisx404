@@ -2,58 +2,83 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="200" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#020604"/>
-      <stop offset="50%" stop-color="#051208"/>
+      <stop offset="50%" stop-color="#041208"/>
       <stop offset="100%" stop-color="#020604"/>
     </linearGradient>
 
-    <!-- Foam organic blobs using blur + contrast -->
-    <filter id="goo">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="25" result="blur" />
-      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 25 -10" result="goo" />
-      <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+    <linearGradient id="v1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A6B3D" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#0A2917" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#1A6B3D" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <linearGradient id="v2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2DFF78" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#0C5226" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#2DFF78" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <linearGradient id="v3" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7CFF9A" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1A6B3D" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
 
-    <radialGradient id="greenPulse" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#2DFF78" stop-opacity="0.3"/>
-      <stop offset="50%" stop-color="#2DFF78" stop-opacity="0.05"/>
-      <stop offset="100%" stop-color="#2DFF78" stop-opacity="0"/>
-    </radialGradient>
-
     <filter id="grain">
-      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
       <feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.04 0"/>
     </filter>
   </defs>
 
   <rect width="1600" height="200" fill="url(#bg)"/>
 
-  <!-- Organic animated foam background -->
-  <g filter="url(#goo)" opacity="0.8">
-    <ellipse cx="300" cy="100" rx="200" ry="150" fill="#0c2b16">
-      <animate attributeName="cx" values="300;500;300" dur="12s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="1300" cy="100" rx="250" ry="150" fill="#0a2111">
-      <animate attributeName="cx" values="1300;1100;1300" dur="14s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="800" cy="100" rx="300" ry="150" fill="#123d1e">
-      <animate attributeName="rx" values="300;400;300" dur="10s" repeatCount="indefinite"/>
-    </ellipse>
-  </g>
+  <!-- Fluid Aurora Layers -->
+  <g filter="url(#glow)">
+    
+    <!-- Base deep wave -->
+    <path fill="url(#v1)" stroke="#1A6B3D" stroke-opacity="0.5" stroke-width="2">
+      <animate attributeName="d" dur="20s" repeatCount="indefinite" values="
+        M -100,100 C 300,20 500,180 850,100 C 1200,20 1400,180 1700,100 L 1700,250 L -100,250 Z;
+        M -100,100 C 300,180 500,20 850,100 C 1200,180 1400,20 1700,100 L 1700,250 L -100,250 Z;
+        M -100,100 C 300,20 500,180 850,100 C 1200,20 1400,180 1700,100 L 1700,250 L -100,250 Z
+      "/>
+    </path>
 
-  <!-- Energy nodes -->
-  <g opacity="0.6">
-    <circle cx="600" cy="100" r="80" fill="url(#greenPulse)">
-      <animate attributeName="cx" values="600;800;600" dur="10s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1000" cy="100" r="100" fill="url(#greenPulse)">
-      <animate attributeName="cx" values="1000;800;1000" dur="12s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.4;1.0;0.4" dur="5s" repeatCount="indefinite"/>
-    </circle>
+    <!-- Mid bright wave -->
+    <path fill="url(#v2)" stroke="#2DFF78" stroke-opacity="0.3" stroke-width="1.5">
+      <animate attributeName="d" dur="15s" repeatCount="indefinite" values="
+        M -100,130 C 400,220 600,40 900,130 C 1200,220 1500,40 1700,130 L 1700,250 L -100,250 Z;
+        M -100,130 C 400,40 600,220 900,130 C 1200,40 1500,220 1700,130 L 1700,250 L -100,250 Z;
+        M -100,130 C 400,220 600,40 900,130 C 1200,220 1500,40 1700,130 L 1700,250 L -100,250 Z
+      "/>
+    </path>
+
+    <!-- Sharp top wave -->
+    <path fill="url(#v3)" stroke="#7CFF9A" stroke-opacity="0.4" stroke-width="1">
+      <animate attributeName="d" dur="25s" repeatCount="indefinite" values="
+        M -100,160 C 200,80 600,240 800,160 C 1000,40 1400,240 1700,160 L 1700,250 L -100,250 Z;
+        M -100,160 C 200,240 600,80 800,160 C 1000,240 1400,40 1700,160 L 1700,250 L -100,250 Z;
+        M -100,160 C 200,80 600,240 800,160 C 1000,40 1400,240 1700,160 L 1700,250 L -100,250 Z
+      "/>
+    </path>
+
+    <!-- Hanging canopy wave from top -->
+    <path fill="url(#v2)" opacity="0.6" stroke="#2DFF78" stroke-opacity="0.2" stroke-width="1.5">
+      <animate attributeName="d" dur="18s" repeatCount="indefinite" values="
+        M -100,50 C 250,150 750,0 850,50 C 950,100 1450,0 1700,50 L 1700,-50 L -100,-50 Z;
+        M -100,50 C 250,0 750,150 850,50 C 950,0 1450,100 1700,50 L 1700,-50 L -100,-50 Z;
+        M -100,50 C 250,150 750,0 850,50 C 950,100 1450,0 1700,50 L 1700,-50 L -100,-50 Z
+      "/>
+    </path>
   </g>
 
   <rect width="1600" height="200" filter="url(#grain)" opacity="0.9"/>
 
+  <!-- Horizontal scanner line -->
   <line x1="200" y1="1" x2="1400" y2="1" stroke="#7CFF9A" stroke-width="2" stroke-opacity="0.2">
     <animate attributeName="stroke-opacity" values="0.1;0.5;0.1" dur="4s" repeatCount="indefinite"/>
   </line>

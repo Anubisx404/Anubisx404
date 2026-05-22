@@ -2,75 +2,89 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#020604"/>
-      <stop offset="50%" stop-color="#051208"/>
+      <stop offset="50%" stop-color="#041208"/>
       <stop offset="100%" stop-color="#020604"/>
     </linearGradient>
 
-    <!-- Foam organic blobs using blur + contrast -->
-    <filter id="goo">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="35" result="blur" />
-      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 25 -10" result="goo" />
-      <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+    <!-- Polished liquid gradients for the fluid layers -->
+    <linearGradient id="v1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A6B3D" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#0A2917" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#1A6B3D" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <linearGradient id="v2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2DFF78" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#0C5226" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#2DFF78" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <linearGradient id="v3" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7CFF9A" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1A6B3D" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glowing blur for the fluid rims -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
 
-    <radialGradient id="greenPulse" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#2DFF78" stop-opacity="0.25"/>
-      <stop offset="50%" stop-color="#2DFF78" stop-opacity="0.05"/>
-      <stop offset="100%" stop-color="#2DFF78" stop-opacity="0"/>
-    </radialGradient>
-
     <filter id="grain">
-      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
       <feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.04 0"/>
     </filter>
 
+    <!-- Text Shimmer -->
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="50%" stop-color="#B9FFD0"/>
       <stop offset="100%" stop-color="#ffffff"/>
-      <animate attributeName="x1" values="-50%;50%;-50%" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="50%;150%;50%" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="-50%;50%;-50%" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="50%;150%;50%" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
   </defs>
 
   <rect width="1600" height="520" fill="url(#bg)"/>
 
-  <!-- Organic animated foam background -->
-  <g filter="url(#goo)" opacity="0.8">
-    <ellipse cx="400" cy="200" rx="200" ry="250" fill="#0c2b16">
-      <animate attributeName="cx" values="400;600;400" dur="12s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="200;300;200" dur="15s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="1200" cy="300" rx="300" ry="200" fill="#0a2111">
-      <animate attributeName="cx" values="1200;1000;1200" dur="14s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="300;150;300" dur="11s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="800" cy="250" rx="250" ry="250" fill="#123d1e">
-      <animate attributeName="rx" values="250;350;250" dur="10s" repeatCount="indefinite"/>
-      <animate attributeName="ry" values="250;150;250" dur="13s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="200" cy="400" rx="150" ry="150" fill="#081c0e">
-      <animate attributeName="cy" values="400;100;400" dur="18s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="1400" cy="100" rx="180" ry="180" fill="#0f3319">
-      <animate attributeName="cx" values="1400;1200;1400" dur="16s" repeatCount="indefinite"/>
-    </ellipse>
-  </g>
+  <!-- Fluid Aurora Layers -->
+  <g filter="url(#glow)">
+    
+    <!-- Base deep wave -->
+    <path fill="url(#v1)" stroke="#1A6B3D" stroke-opacity="0.5" stroke-width="2">
+      <animate attributeName="d" dur="22s" repeatCount="indefinite" values="
+        M -100,260 C 300,50 500,450 850,260 C 1200,70 1400,450 1700,260 L 1700,600 L -100,600 Z;
+        M -100,260 C 300,450 500,70 850,260 C 1200,450 1400,70 1700,260 L 1700,600 L -100,600 Z;
+        M -100,260 C 300,50 500,450 850,260 C 1200,70 1400,450 1700,260 L 1700,600 L -100,600 Z
+      "/>
+    </path>
 
-  <!-- Energy nodes -->
-  <g opacity="0.6">
-    <circle cx="500" cy="150" r="100" fill="url(#greenPulse)">
-      <animate attributeName="cx" values="500;700;500" dur="10s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1100" cy="350" r="120" fill="url(#greenPulse)">
-      <animate attributeName="cy" values="350;200;350" dur="12s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.4;1.0;0.4" dur="5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="800" cy="250" r="150" fill="url(#greenPulse)">
-      <animate attributeName="r" values="150;220;150" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3.5s" repeatCount="indefinite"/>
-    </circle>
+    <!-- Mid bright wave -->
+    <path fill="url(#v2)" stroke="#2DFF78" stroke-opacity="0.3" stroke-width="1.5">
+      <animate attributeName="d" dur="18s" repeatCount="indefinite" values="
+        M -100,320 C 400,550 600,100 900,320 C 1200,550 1500,150 1700,320 L 1700,600 L -100,600 Z;
+        M -100,320 C 400,100 600,550 900,320 C 1200,150 1500,550 1700,320 L 1700,600 L -100,600 Z;
+        M -100,320 C 400,550 600,100 900,320 C 1200,550 1500,150 1700,320 L 1700,600 L -100,600 Z
+      "/>
+    </path>
+
+    <!-- Sharp top wave -->
+    <path fill="url(#v3)" stroke="#7CFF9A" stroke-opacity="0.4" stroke-width="1">
+      <animate attributeName="d" dur="26s" repeatCount="indefinite" values="
+        M -100,380 C 200,200 600,650 800,380 C 1000,100 1400,550 1700,380 L 1700,600 L -100,600 Z;
+        M -100,380 C 200,550 600,100 800,380 C 1000,650 1400,200 1700,380 L 1700,600 L -100,600 Z;
+        M -100,380 C 200,200 600,650 800,380 C 1000,100 1400,550 1700,380 L 1700,600 L -100,600 Z
+      "/>
+    </path>
+
+    <!-- Hanging canopy wave from top -->
+    <path fill="url(#v2)" opacity="0.6" stroke="#2DFF78" stroke-opacity="0.2" stroke-width="1.5">
+      <animate attributeName="d" dur="20s" repeatCount="indefinite" values="
+        M -100,150 C 250,450 750,0 850,150 C 950,300 1450,-50 1700,150 L 1700,-100 L -100,-100 Z;
+        M -100,150 C 250,0 750,450 850,150 C 950,-50 1450,300 1700,150 L 1700,-100 L -100,-100 Z;
+        M -100,150 C 250,450 750,0 850,150 C 950,300 1450,-50 1700,150 L 1700,-100 L -100,-100 Z
+      "/>
+    </path>
   </g>
 
   <rect width="1600" height="520" filter="url(#grain)" opacity="0.9"/>
@@ -94,6 +108,7 @@
     </text>
   </g>
 
+  <!-- Horizontal scanner line -->
   <line x1="200" y1="450" x2="1400" y2="450" stroke="#7CFF9A" stroke-width="2" stroke-opacity="0.3">
     <animate attributeName="stroke-opacity" values="0.1;0.6;0.1" dur="4s" repeatCount="indefinite"/>
   </line>
