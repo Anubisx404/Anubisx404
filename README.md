@@ -90,8 +90,8 @@ My primary stack is **.NET** and **Flutter** for application development, with d
 ### GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anubisx404&show_icons=true&theme=transparent&hide_border=true&title_color=7CFF9A&icon_color=7CFF9A&text_color=8b949e&bg_color=00000000" width="48%" alt="Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Anubisx404&theme=transparent&hide_border=true&ring=7CFF9A&fire=7CFF9A&currStreakLabel=7CFF9A&sideLabels=8b949e&dates=484f58&currStreakNum=c9d1d9&sideNums=c9d1d9" width="48%" alt="Streak"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Anubisx404&show_icons=true&theme=transparent&hide_bg=true&hide_border=true&title_color=7CFF9A&icon_color=7CFF9A&text_color=8b949e" width="48%" alt="Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Anubisx404&theme=transparent&hide_border=true&background=00000000&ring=7CFF9A&fire=7CFF9A&currStreakLabel=7CFF9A&sideLabels=8b949e&dates=484f58&currStreakNum=c9d1d9&sideNums=c9d1d9" width="48%" alt="Streak"/>
 </div>
 
 <br>
@@ -103,7 +103,7 @@ My primary stack is **.NET** and **Flutter** for application development, with d
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anubisx404&layout=compact&theme=transparent&hide_border=true&title_color=7CFF9A&text_color=8b949e&bg_color=00000000&langs_count=8" width="40%" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anubisx404&layout=compact&theme=transparent&hide_bg=true&hide_border=true&title_color=7CFF9A&text_color=8b949e&langs_count=8" width="40%" alt="Top Languages"/>
 </div>
 
 <br>
