@@ -16,11 +16,11 @@
 
 <br>
 
-### About
+### [0x01 // SYSTEM_OVERVIEW]
 
-I am a double major in **Physics** and **Computer Science**, building software at the intersection of scientific rigor and production-grade engineering. My work spans cybersecurity tooling, physics simulations, cross-platform applications, and applied machine learning.
+Double major in **Physics** and **Computer Science**, constructing software at the boundary of mathematical rigor and high-performance engineering. Academic foundations in theoretical physics are applied directly to systems programming, low-latency execution sandboxes, and cryptographic simulations.
 
-My primary stack is **.NET** and **Flutter** for application development, with deep experience in **system design**, **theoretical computation**, and **security research**. Every project is held to a standard of clean architecture, minimal dependencies, and practical utility.
+Primary architectures utilize **.NET** and **Flutter** for cross-platform deployments, with deep operations in **distributed systems design**, **theoretical computation**, and **adversarial security research**. Every construct is engineered to a standard of minimal dependencies, mathematical verification, and strict operational utility.
 
 <br>
 
@@ -30,20 +30,20 @@ My primary stack is **.NET** and **Flutter** for application development, with d
 
 <br>
 
-### Selected Projects
+### [0x02 // SELECTED_PROJECTS]
 
 | Project | Domain | Stack | Description |
 |:---|:---|:---|:---|
-| [Anthrax](https://github.com/Anubisx404/Anthrax) | Cybersecurity | Python, Adversarial ML | Defensive research prototype studying how antivirus-style detectors respond to adaptive malware-like synthetic mutations under adversarial pressure. |
-| [BB84 Quantum Simulator](https://github.com/Anubisx404/BB84-Quantum-Key-Distribution-Simulator) | Physics | Svelte 5, Three.js | End-to-end BB84 Quantum Key Distribution protocol simulator with customizable quantum channels and eavesdropping detection. |
-| [Dijkstra Visualizer](https://github.com/Anubisx404/Dijkstra-Algorithm-Visualization) | Simulation | Python, Manim, NumPy | Mathematical graph animations and pathfinding visualizer tables generated from Dijkstra's algorithm runs. |
-| [Fourier Transform Suite](https://github.com/Anubisx404/Fourier-Transform) | Physics | C++20, Zig, x86-64 MASM | Comparative radix-2 decimation-in-time FFT implementing butterfly calculations across three languages. |
-| FleetPulse Transit | Full-Stack | .NET 10, Svelte 5, PostgreSQL | Live bus telemetry monitoring, component health tracking, delay alerts, and role-based operational workflows. |
-| FluxSync Energy | Cross-Platform | Flutter, .NET 10, TimescaleDB | Energy management app with device simulator, Redis caching, and live dashboards for home energy flow tracking. |
-| Grace Boutique | Full-Stack | .NET 10, SvelteKit, Flutter, GraphQL | Microservices fashion e-commerce with admin dashboard, Flutter try-on system, and Pinecone semantic search. |
-| SvelteRender SSR | Backend | .NET 10, Svelte Compiler, Bun | API-secured SSR microservice running isolated Bun and Node.js sandboxes to compile Svelte components on the server. |
-| Page.Ui Engine | Backend | .NET 10, GraphQL, SignalR, Docker | AI chat and component rendering platform where generated Svelte artifacts are compiled through hardened sandboxes. |
-| Mirox Editor | Desktop | .NET 10, Avalonia UI, ReactiveUI | Cross-platform Markdown viewer and editor with MVVM architecture and an HTML preview pipeline. |
+| [Anthrax](https://github.com/Anubisx404/Anthrax) | Cybersecurity | Python, Adversarial ML | `[DEFENSIVE_CYBER]` Adversarial machine learning prototype evaluating detector resilience against synthetic polymorphic mutation paths under adaptive reinforcement. |
+| [BB84 Quantum Simulator](https://github.com/Anubisx404/BB84-Quantum-Key-Distribution-Simulator) | Physics | Svelte 5, Three.js | `[QUANTUM_PHYSICS]` Seamless simulation of the BB84 QKD protocol across customizable noisy quantum channels with integrated Eve interception thresholds. |
+| [Dijkstra Visualizer](https://github.com/Anubisx404/Dijkstra-Algorithm-Visualization) | Simulation | Python, Manim, NumPy | `[ALGORITHMIC_GRAPH]` Mathematical visualization suite animating pathfinding convergence bounds and visual state tables using Manim. |
+| [Fourier Transform Suite](https://github.com/Anubisx404/Fourier-Transform) | Physics | C++20, Zig, x86-64 MASM | `[COMPUTATIONAL_PHYSICS]` High-performance decimation-in-time radix-2 FFT suite comparing native butterfly computations across C++20, Zig, and x86-64 Assembly. |
+| FleetPulse Transit | Full-Stack | .NET 10, Svelte 5, PostgreSQL | `[DISTRIBUTED_TELEMETRY]` Full-scale telemetry aggregator track, monitoring transit assets with real-time PostgreSQL storage and SignalR event notification. |
+| FluxSync Energy | Cross-Platform | Flutter, .NET 10, TimescaleDB | `[SIMULATED_LOGISTICS]` Energy flow tracker managing time-series telemetry streams through TimescaleDB and Redis caching structures. |
+| Grace Boutique | Full-Stack | .NET 10, SvelteKit, Flutter, GraphQL | `[SECURE_ECOMMERCE]` Microservices network featuring vector semantic search pipelines and secure try-on system integration. |
+| SvelteRender SSR | Backend | .NET 10, Svelte Compiler, Bun | `[ISOLATED_SANDBOX]` High-speed SSR engine executing Svelte compilations inside isolated Bun-powered execution environments. |
+| Page.Ui Engine | Backend | .NET 10, GraphQL, SignalR, Docker | `[COMPILATION_SANDBOX]` Active interface compiler running isolated compilation networks for generated reactive elements. |
+| Mirox Editor | Desktop | .NET 10, Avalonia UI, ReactiveUI | `[CROSS_PLATFORM_UI]` Minimal desktop markdown platform structured around MVVM pattern and ReactiveUI pipelines. |
 
 <br>
 
@@ -53,7 +53,7 @@ My primary stack is **.NET** and **Flutter** for application development, with d
 
 <br>
 
-### Tech Stack
+### [0x03 // TECH_STACK]
 
 <div align="center">
 
@@ -87,7 +87,7 @@ My primary stack is **.NET** and **Flutter** for application development, with d
 
 <br>
 
-### GitHub Analytics
+### [0x04 // SYSTEM_ANALYTICS]
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Anubisx404&theme=transparent&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=8b949e&dates=484f58&currStreakNum=ffffff&sideNums=ffffff" width="70%" alt="Streak"/>
