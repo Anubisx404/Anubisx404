@@ -20,7 +20,7 @@
 
 Double major in **Physics** and **Computer Science**, constructing software at the boundary of mathematical rigor and high-performance engineering. Academic foundations in theoretical physics are applied directly to systems programming, low-latency execution sandboxes, and cryptographic simulations.
 
-Primary architectures utilize **.NET** and **Flutter** for cross-platform deployments, with deep operations in **distributed systems design**, **theoretical computation**, and **adversarial security research**. Every construct is engineered to a standard of minimal dependencies, mathematical verification, and strict operational utility.
+Utilizes diverse architectures for cross-platform deployments, with deep operations in **distributed systems design**, **theoretical computation**, and **adversarial security research**. Every construct is engineered to a standard of minimal dependencies, mathematical verification, and strict operational utility.
 
 <br>
 
