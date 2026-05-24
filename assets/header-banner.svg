@@ -1,115 +1,78 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#020604"/>
-      <stop offset="50%" stop-color="#041208"/>
-      <stop offset="100%" stop-color="#020604"/>
-    </linearGradient>
-
-    <!-- Polished liquid gradients for the fluid layers -->
-    <linearGradient id="v1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1A6B3D" stop-opacity="0.35"/>
-      <stop offset="50%" stop-color="#0A2917" stop-opacity="0.05"/>
-      <stop offset="100%" stop-color="#1A6B3D" stop-opacity="0.35"/>
-    </linearGradient>
-
-    <linearGradient id="v2" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2DFF78" stop-opacity="0.12"/>
-      <stop offset="50%" stop-color="#0C5226" stop-opacity="0.02"/>
-      <stop offset="100%" stop-color="#2DFF78" stop-opacity="0.12"/>
-    </linearGradient>
-
-    <linearGradient id="v3" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#7CFF9A" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#1A6B3D" stop-opacity="0"/>
-    </linearGradient>
-
-    <!-- Glowing blur for the fluid rims -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="15" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-
-    <filter id="grain">
-      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
-      <feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.04 0"/>
-    </filter>
-
-    <!-- Text Shimmer -->
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="50%" stop-color="#B9FFD0"/>
-      <stop offset="100%" stop-color="#ffffff"/>
-      <animate attributeName="x1" values="-50%;50%;-50%" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="50%;150%;50%" dur="8s" repeatCount="indefinite"/>
-    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="0.5"/>
+      <circle cx="0" cy="0" r="1" fill="rgba(255, 255, 255, 0.15)"/>
+    </pattern>
   </defs>
 
-  <rect width="1600" height="520" fill="url(#bg)"/>
+  <rect width="1600" height="520" fill="#000000"/>
+  <rect width="1600" height="520" fill="url(#grid)"/>
 
-  <!-- Fluid Aurora Layers -->
-  <g filter="url(#glow)">
+  <path d="M 40 40 L 1560 40 L 1560 480 L 40 480 Z" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1"/>
+  <path d="M 36 40 L 44 40 M 1556 40 L 1564 40 M 36 480 L 44 480 M 1556 480 L 1564 480 M 40 36 L 40 44 M 1560 36 L 1560 44 M 40 476 L 40 484 M 1560 476 L 1560 484" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1"/>
+
+  <g transform="translate(0, 0)">
+    <circle cx="250" cy="260" r="220" fill="none" stroke="rgba(255, 255, 255, 0.02)" stroke-width="1"/>
+    <circle cx="250" cy="260" r="160" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" stroke-dasharray="10,10"/>
+    <circle cx="250" cy="260" r="100" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1"/>
+    <circle cx="250" cy="260" r="40" fill="none" stroke="rgba(255, 255, 255, 0.1)" stroke-width="0.8" stroke-dasharray="3,3"/>
+    <circle cx="250" cy="260" r="4" fill="#ffffff"/>
+
+    <path d="M 250 260 A 12 12 0 0 0 262 272 A 28 28 0 0 0 234 288 A 52 52 0 0 0 198 224 A 80 80 0 0 0 294 184 A 114 114 0 0 0 310 316 A 148 148 0 0 0 142 344 A 184 184 0 0 0 106 170" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="1.2" stroke-dasharray="4,4"/>
+    <path d="M 250 260 A 16 16 0 0 1 234 244 A 36 36 0 0 1 270 208 A 64 64 0 0 1 302 292 A 96 96 0 0 1 174 316 A 132 132 0 0 1 162 148 A 170 170 0 0 1 310 120" fill="none" stroke="rgba(255, 255, 255, 0.35)" stroke-width="1"/>
+    <path d="M 250 260 A 6 6 0 0 0 256 266 A 14 14 0 0 0 242 274 A 24 24 0 0 0 230 250 A 38 38 0 0 0 268 222 A 56 56 0 0 0 298 278 A 76 76 0 0 0 214 318 A 98 98 0 0 0 158 218 A 124 124 0 0 0 286 150 A 152 152 0 0 0 330 310" fill="none" stroke="rgba(255, 255, 255, 0.45)" stroke-width="1.5"/>
+
+    <line x1="250" y1="260" x2="30" y2="40" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.8" stroke-dasharray="8,6"/>
+    <line x1="250" y1="260" x2="80" y2="420" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1"/>
+    <line x1="250" y1="260" x2="430" y2="140" stroke="rgba(255, 255, 255, 0.2)" stroke-width="0.8" stroke-dasharray="2,2"/>
+    <line x1="250" y1="260" x2="460" y2="330" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1"/>
+
+    <path d="M 50 260 L 450 260 M 250 60 L 250 460" stroke="rgba(255, 255, 255, 0.05)" stroke-width="0.5"/>
+  </g>
+
+  <g transform="translate(0, 0)">
+    <circle cx="1350" cy="260" r="220" fill="none" stroke="rgba(255, 255, 255, 0.02)" stroke-width="1"/>
+    <circle cx="1350" cy="260" r="160" fill="none" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1.2" stroke-dasharray="8,4"/>
+    <circle cx="1350" cy="260" r="120" fill="none" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1"/>
+    <circle cx="1350" cy="260" r="80" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="0.8"/>
+    <circle cx="1350" cy="260" r="40" fill="none" stroke="rgba(255, 255, 255, 0.35)" stroke-width="1.2" stroke-dasharray="2,2"/>
+    <circle cx="1350" cy="260" r="6" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+
+    <ellipse cx="1350" cy="260" rx="160" ry="50" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1"/>
+    <ellipse cx="1350" cy="260" rx="160" ry="100" fill="none" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" stroke-dasharray="6,6"/>
+    <ellipse cx="1350" cy="260" rx="50" ry="160" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1"/>
+    <ellipse cx="1350" cy="260" rx="100" ry="160" fill="none" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" stroke-dasharray="6,6"/>
+
+    <line x1="1170" y1="260" x2="1530" y2="260" stroke="rgba(255, 255, 255, 0.2)" stroke-width="0.8"/>
+    <line x1="1350" y1="80" x2="1350" y2="440" stroke="rgba(255, 255, 255, 0.2)" stroke-width="0.8"/>
+    <line x1="1237" y1="147" x2="1463" y2="373" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <line x1="1237" y1="373" x2="1463" y2="147" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+    <path d="M 1340 260 L 1360 260 M 1350 250 L 1350 270" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <g transform="translate(0, 0)">
+    <path d="M 500 130 L 500 110 L 530 110 M 1070 110 L 1100 110 L 1100 130 M 500 390 L 500 410 L 530 410 M 1070 410 L 1100 410 L 1100 390" stroke="rgba(255, 255, 255, 0.35)" stroke-width="1.5" fill="none"/>
+    <rect x="520" y="125" width="560" height="270" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" stroke-dasharray="4,8"/>
+    <line x1="560" y1="315" x2="1040" y2="315" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" stroke-dasharray="3,6"/>
+
+    <text x="800" y="170" font-family="'Courier New', Courier, monospace" font-size="20" font-weight="bold" fill="rgba(255, 255, 255, 0.9)" letter-spacing="14" text-anchor="middle">SOFTWARE ENGINEER</text>
     
-    <!-- Base deep wave -->
-    <path fill="url(#v1)" stroke="#1A6B3D" stroke-opacity="0.5" stroke-width="2">
-      <animate attributeName="d" dur="22s" repeatCount="indefinite" values="
-        M -100,260 C 300,50 500,450 850,260 C 1200,70 1400,450 1700,260 L 1700,600 L -100,600 Z;
-        M -100,260 C 300,450 500,70 850,260 C 1200,450 1400,70 1700,260 L 1700,600 L -100,600 Z;
-        M -100,260 C 300,50 500,450 850,260 C 1200,70 1400,450 1700,260 L 1700,600 L -100,600 Z
-      "/>
-    </path>
-
-    <!-- Mid bright wave -->
-    <path fill="url(#v2)" stroke="#2DFF78" stroke-opacity="0.3" stroke-width="1.5">
-      <animate attributeName="d" dur="18s" repeatCount="indefinite" values="
-        M -100,320 C 400,550 600,100 900,320 C 1200,550 1500,150 1700,320 L 1700,600 L -100,600 Z;
-        M -100,320 C 400,100 600,550 900,320 C 1200,150 1500,550 1700,320 L 1700,600 L -100,600 Z;
-        M -100,320 C 400,550 600,100 900,320 C 1200,550 1500,150 1700,320 L 1700,600 L -100,600 Z
-      "/>
-    </path>
-
-    <!-- Sharp top wave -->
-    <path fill="url(#v3)" stroke="#7CFF9A" stroke-opacity="0.4" stroke-width="1">
-      <animate attributeName="d" dur="26s" repeatCount="indefinite" values="
-        M -100,380 C 200,200 600,650 800,380 C 1000,100 1400,550 1700,380 L 1700,600 L -100,600 Z;
-        M -100,380 C 200,550 600,100 800,380 C 1000,650 1400,200 1700,380 L 1700,600 L -100,600 Z;
-        M -100,380 C 200,200 600,650 800,380 C 1000,100 1400,550 1700,380 L 1700,600 L -100,600 Z
-      "/>
-    </path>
-
-    <!-- Hanging canopy wave from top -->
-    <path fill="url(#v2)" opacity="0.6" stroke="#2DFF78" stroke-opacity="0.2" stroke-width="1.5">
-      <animate attributeName="d" dur="20s" repeatCount="indefinite" values="
-        M -100,150 C 250,450 750,0 850,150 C 950,300 1450,-50 1700,150 L 1700,-100 L -100,-100 Z;
-        M -100,150 C 250,0 750,450 850,150 C 950,-50 1450,300 1700,150 L 1700,-100 L -100,-100 Z;
-        M -100,150 C 250,450 750,0 850,150 C 950,300 1450,-50 1700,150 L 1700,-100 L -100,-100 Z
-      "/>
-    </path>
+    <text x="800" y="278" font-family="'Segoe UI', -apple-system, sans-serif" font-size="110" font-weight="800" fill="#ffffff" letter-spacing="3" text-anchor="middle">Mohamed Alaa</text>
+    
+    <text x="800" y="358" font-family="'Courier New', Courier, monospace" font-size="20" font-weight="bold" fill="rgba(255, 255, 255, 0.5)" letter-spacing="4" text-anchor="middle">PHYSICS  ·  COMPUTER SCIENCE  ·  CYBERSECURITY</text>
   </g>
 
-  <rect width="1600" height="520" filter="url(#grain)" opacity="0.9"/>
+  <g font-family="'Courier New', Courier, monospace" font-size="10" fill="rgba(255, 255, 255, 0.25)">
+    <text x="60" y="70">[ARCHIVE_REF: HCA-404]</text>
+    <text x="60" y="90">[SYS_STATUS: ACTIVE]</text>
+    <text x="60" y="445">ψ(x,t) = A·e^(i(kx-ωt))</text>
+    <text x="60" y="465">E² = (p·c)² + (m₀·c²)²</text>
 
-  <!-- Texts -->
-  <g transform="translate(800, 150)" text-anchor="middle">
-    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="12" fill="#7CFF9A" fill-opacity="0.8">
-      SOFTWARE ENGINEER
-    </text>
+    <text x="1540" y="70" text-anchor="end">[MODEL: HERMES-A]</text>
+    <text x="1540" y="90" text-anchor="end">[LOC: GR-38.60]</text>
+    <text x="1540" y="445" text-anchor="end">G_μν + Λg_μν = 8πG/c⁴ T_μν</text>
+    <text x="1540" y="465" text-anchor="end">|Ψ⟩ = α|0⟩ + β|1⟩</text>
   </g>
-
-  <g transform="translate(800, 260)" text-anchor="middle">
-    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="130" font-weight="800" fill="url(#nameGrad)" letter-spacing="4">
-      Mohamed Alaa
-    </text>
-  </g>
-
-  <g transform="translate(800, 360)" text-anchor="middle">
-    <text font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="500" fill="#ffffff" fill-opacity="0.6" letter-spacing="6">
-      PHYSICS  ·  COMPUTER SCIENCE  ·  CYBERSECURITY
-    </text>
-  </g>
-
-  <!-- Horizontal scanner line -->
-  <line x1="200" y1="450" x2="1400" y2="450" stroke="#7CFF9A" stroke-width="2" stroke-opacity="0.3">
-    <animate attributeName="stroke-opacity" values="0.1;0.6;0.1" dur="4s" repeatCount="indefinite"/>
-  </line>
 </svg>
