@@ -4,6 +4,15 @@
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="0.5"/>
       <circle cx="0" cy="0" r="1" fill="rgba(255, 255, 255, 0.15)"/>
     </pattern>
+    <filter id="crt-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <rect width="1600" height="520" fill="#000000"/>
@@ -17,11 +26,23 @@
     <circle cx="250" cy="260" r="160" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" stroke-dasharray="10,10"/>
     <circle cx="250" cy="260" r="100" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1"/>
     <circle cx="250" cy="260" r="40" fill="none" stroke="rgba(255, 255, 255, 0.1)" stroke-width="0.8" stroke-dasharray="3,3"/>
-    <circle cx="250" cy="260" r="4" fill="#ffffff"/>
+    
+    <circle cx="250" cy="260" r="0" fill="none" stroke="rgba(255, 255, 255, 0.35)" stroke-width="1">
+      <animate attributeName="r" values="0;220" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.6;0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="250" cy="260" r="4" fill="#ffffff" filter="url(#crt-glow)"/>
 
-    <path d="M 250 260 A 12 12 0 0 0 262 272 A 28 28 0 0 0 234 288 A 52 52 0 0 0 198 224 A 80 80 0 0 0 294 184 A 114 114 0 0 0 310 316 A 148 148 0 0 0 142 344 A 184 184 0 0 0 106 170" fill="none" stroke="rgba(255, 255, 255, 0.5)" stroke-width="1.2" stroke-dasharray="4,4"/>
-    <path d="M 250 260 A 16 16 0 0 1 234 244 A 36 36 0 0 1 270 208 A 64 64 0 0 1 302 292 A 96 96 0 0 1 174 316 A 132 132 0 0 1 162 148 A 170 170 0 0 1 310 120" fill="none" stroke="rgba(255, 255, 255, 0.35)" stroke-width="1"/>
-    <path d="M 250 260 A 6 6 0 0 0 256 266 A 14 14 0 0 0 242 274 A 24 24 0 0 0 230 250 A 38 38 0 0 0 268 222 A 56 56 0 0 0 298 278 A 76 76 0 0 0 214 318 A 98 98 0 0 0 158 218 A 124 124 0 0 0 286 150 A 152 152 0 0 0 330 310" fill="none" stroke="rgba(255, 255, 255, 0.45)" stroke-width="1.5"/>
+    <path d="M 250 260 A 12 12 0 0 0 262 272 A 28 28 0 0 0 234 288 A 52 52 0 0 0 198 224 A 80 80 0 0 0 294 184 A 114 114 0 0 0 310 316 A 148 148 0 0 0 142 344 A 184 184 0 0 0 106 170" fill="none" stroke="rgba(255, 255, 255, 0.55)" stroke-width="1.2" stroke-dasharray="6,12">
+      <animate attributeName="stroke-dashoffset" values="360;0" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 250 260 A 16 16 0 0 1 234 244 A 36 36 0 0 1 270 208 A 64 64 0 0 1 302 292 A 96 96 0 0 1 174 316 A 132 132 0 0 1 162 148 A 170 170 0 0 1 310 120" fill="none" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1" stroke-dasharray="12,18">
+      <animate attributeName="stroke-dashoffset" values="0;400" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 250 260 A 6 6 0 0 0 256 266 A 14 14 0 0 0 242 274 A 24 24 0 0 0 230 250 A 38 38 0 0 0 268 222 A 56 56 0 0 0 298 278 A 76 76 0 0 0 214 318 A 98 98 0 0 0 158 218 A 124 124 0 0 0 286 150 A 152 152 0 0 0 330 310" fill="none" stroke="rgba(255, 255, 255, 0.45)" stroke-width="1.5" stroke-dasharray="4,8">
+      <animate attributeName="stroke-dashoffset" values="240;0" dur="3s" repeatCount="indefinite"/>
+    </path>
 
     <line x1="250" y1="260" x2="30" y2="40" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.8" stroke-dasharray="8,6"/>
     <line x1="250" y1="260" x2="80" y2="420" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1"/>
@@ -39,15 +60,24 @@
     <circle cx="1350" cy="260" r="40" fill="none" stroke="rgba(255, 255, 255, 0.35)" stroke-width="1.2" stroke-dasharray="2,2"/>
     <circle cx="1350" cy="260" r="6" fill="none" stroke="#ffffff" stroke-width="1.5"/>
 
-    <ellipse cx="1350" cy="260" rx="160" ry="50" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1"/>
-    <ellipse cx="1350" cy="260" rx="160" ry="100" fill="none" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" stroke-dasharray="6,6"/>
-    <ellipse cx="1350" cy="260" rx="50" ry="160" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1"/>
-    <ellipse cx="1350" cy="260" rx="100" ry="160" fill="none" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" stroke-dasharray="6,6"/>
+    <circle cx="1350" cy="260" r="0" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1">
+      <animate attributeName="r" values="0;160" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.5;0" dur="8s" repeatCount="indefinite"/>
+    </circle>
 
-    <line x1="1170" y1="260" x2="1530" y2="260" stroke="rgba(255, 255, 255, 0.2)" stroke-width="0.8"/>
-    <line x1="1350" y1="80" x2="1350" y2="440" stroke="rgba(255, 255, 255, 0.2)" stroke-width="0.8"/>
-    <line x1="1237" y1="147" x2="1463" y2="373" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.5" stroke-dasharray="3,3"/>
-    <line x1="1237" y1="373" x2="1463" y2="147" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 1350 260" to="360 1350 260" dur="30s" repeatCount="indefinite"/>
+      <ellipse cx="1350" cy="260" rx="160" ry="50" fill="none" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1"/>
+      <ellipse cx="1350" cy="260" rx="160" ry="100" fill="none" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" stroke-dasharray="6,6"/>
+      <ellipse cx="1350" cy="260" rx="50" ry="160" fill="none" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1"/>
+      <ellipse cx="1350" cy="260" rx="100" ry="160" fill="none" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" stroke-dasharray="6,6"/>
+      
+      <line x1="1170" y1="260" x2="1530" y2="260" stroke="rgba(255, 255, 255, 0.25)" stroke-width="0.8"/>
+      <line x1="1350" y1="80" x2="1350" y2="440" stroke="rgba(255, 255, 255, 0.25)" stroke-width="0.8"/>
+    </g>
+
+    <line x1="1237" y1="147" x2="1463" y2="373" stroke="rgba(255, 255, 255, 0.1)" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <line x1="1237" y1="373" x2="1463" y2="147" stroke="rgba(255, 255, 255, 0.1)" stroke-width="0.5" stroke-dasharray="3,3"/>
 
     <path d="M 1340 260 L 1360 260 M 1350 250 L 1350 270" stroke="#ffffff" stroke-width="1"/>
   </g>
@@ -57,14 +87,20 @@
     <rect x="520" y="125" width="560" height="270" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" stroke-dasharray="4,8"/>
     <line x1="560" y1="315" x2="1040" y2="315" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" stroke-dasharray="3,6"/>
 
-    <text x="800" y="170" font-family="'Courier New', Courier, monospace" font-size="20" font-weight="bold" fill="rgba(255, 255, 255, 0.9)" letter-spacing="14" text-anchor="middle">SOFTWARE ENGINEER</text>
+    <line x1="510" y1="110" x2="1090" y2="110" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1.5">
+      <animate attributeName="y1" values="110;410;110" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="110;410;110" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.1;0.7;0.1" dur="10s" repeatCount="indefinite"/>
+    </line>
+
+    <text x="800" y="170" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="20" font-weight="bold" fill="rgba(255, 255, 255, 0.9)" letter-spacing="14" text-anchor="middle" filter="url(#crt-glow)">SOFTWARE ENGINEER</text>
     
-    <text x="800" y="278" font-family="'Segoe UI', -apple-system, sans-serif" font-size="110" font-weight="800" fill="#ffffff" letter-spacing="3" text-anchor="middle">Mohamed Alaa</text>
+    <text x="800" y="278" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Space Grotesk', sans-serif" font-size="110" font-weight="900" fill="#ffffff" letter-spacing="4" text-anchor="middle" filter="url(#crt-glow)">MOHAMED ALAA</text>
     
-    <text x="800" y="358" font-family="'Courier New', Courier, monospace" font-size="20" font-weight="bold" fill="rgba(255, 255, 255, 0.5)" letter-spacing="4" text-anchor="middle">PHYSICS  ·  COMPUTER SCIENCE  ·  CYBERSECURITY</text>
+    <text x="800" y="358" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="20" font-weight="bold" fill="rgba(255, 255, 255, 0.5)" letter-spacing="4" text-anchor="middle">PHYSICS  ·  COMPUTER SCIENCE  ·  CYBERSECURITY</text>
   </g>
 
-  <g font-family="'Courier New', Courier, monospace" font-size="10" fill="rgba(255, 255, 255, 0.25)">
+  <g font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="10" fill="rgba(255, 255, 255, 0.25)">
     <text x="60" y="70">[ARCHIVE_REF: HCA-404]</text>
     <text x="60" y="90">[SYS_STATUS: ACTIVE]</text>
     <text x="60" y="445">ψ(x,t) = A·e^(i(kx-ωt))</text>
