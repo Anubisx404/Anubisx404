@@ -90,13 +90,13 @@ My primary stack is **.NET** and **Flutter** for application development, with d
 ### GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Anubisx404&theme=transparent&hide_border=true&background=00000000&ring=7CFF9A&fire=7CFF9A&currStreakLabel=7CFF9A&sideLabels=8b949e&dates=484f58&currStreakNum=c9d1d9&sideNums=c9d1d9" width="70%" alt="Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Anubisx404&theme=transparent&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=8b949e&dates=484f58&currStreakNum=ffffff&sideNums=ffffff" width="70%" alt="Streak"/>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anubisx404&bg_color=020604&color=8b949e&line=7CFF9A&point=d4ffe2&area=true&area_color=7CFF9A&hide_border=true&custom_title=Contribution%20Timeline" width="95%" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anubisx404&bg_color=000000&color=8b949e&line=ffffff&point=ffffff&area=true&area_color=ffffff&hide_border=true&custom_title=Contribution%20Timeline" width="95%" alt="Activity Graph"/>
 </div>
 
 <br>
