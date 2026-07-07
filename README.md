@@ -57,9 +57,9 @@ Utilizes diverse architectures for cross-platform deployments, with deep operati
 
 <div align="center">
 
-| Languages | Frameworks | Databases | Infrastructure | Tools |
+| Languages | Frameworks | Databases | Infrastructure / Observability | Tools |
 |:---:|:---:|:---:|:---:|:---:|
-| <img src="https://skillicons.dev/icons?i=cpp,cs,java,python,dart,zig&perline=3"/> | <img src="https://skillicons.dev/icons?i=dotnet,flutter,svelte,tailwind,bootstrap,jquery&perline=3"/> | <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,firebase,supabase&perline=3"/> | <img src="https://skillicons.dev/icons?i=docker,nginx,linux,bash,arduino,rabbitmq&perline=3"/> | <img src="https://skillicons.dev/icons?i=git,github,graphql,sass,html,css&perline=3"/> |
+| <img src="https://skillicons.dev/icons?i=cpp,cs,java,python,dart,zig,go,ruby&perline=4"/> | <img src="https://skillicons.dev/icons?i=dotnet,flutter,svelte,tailwind,bootstrap,jquery,qt,rails&perline=4"/> | <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,firebase,supabase&perline=3"/> | <img src="https://skillicons.dev/icons?i=docker,nginx,linux,bash,arduino,rabbitmq,prometheus,grafana&perline=4"/> | <img src="https://skillicons.dev/icons?i=git,github,graphql,sass,html,css,bun&perline=4"/> |
 
 </div>
 
