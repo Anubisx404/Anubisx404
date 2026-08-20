@@ -34,16 +34,17 @@ Primary architectures utilize **.NET** and **Flutter** for cross-platform deploy
 
 | Project | Domain | Stack | Description |
 |:---|:---|:---|:---|
-| [Anthrax](https://github.com/Anubisx404/Anthrax) | Cybersecurity | Python, Adversarial ML | `[DEFENSIVE_CYBER]` Adversarial machine learning prototype evaluating detector resilience against synthetic polymorphic mutation paths under adaptive reinforcement. |
-| [BB84 Quantum Simulator](https://github.com/Anubisx404/BB84-Quantum-Key-Distribution-Simulator) | Physics | Svelte 5, Three.js | `[QUANTUM_PHYSICS]` Seamless simulation of the BB84 QKD protocol across customizable noisy quantum channels with integrated Eve interception thresholds. |
 | [Dijkstra Visualizer](https://github.com/Anubisx404/Dijkstra-Algorithm-Visualization) | Simulation | Python, Manim, NumPy | `[ALGORITHMIC_GRAPH]` Mathematical visualization suite animating pathfinding convergence bounds and visual state tables using Manim. |
 | [Fourier Transform Suite](https://github.com/Anubisx404/Fourier-Transform) | Physics | C++20, Zig, x86-64 MASM | `[COMPUTATIONAL_PHYSICS]` High-performance decimation-in-time radix-2 FFT suite comparing native butterfly computations across C++20, Zig, and x86-64 Assembly. |
-| FleetPulse Transit | Full-Stack | .NET 10, Svelte 5, PostgreSQL | `[DISTRIBUTED_TELEMETRY]` Full-scale telemetry aggregator track, monitoring transit assets with real-time PostgreSQL storage and SignalR event notification. |
+| FleetPulse Transit | Full-Stack | .NET 10, Svelte 5, PostgreSQL | `[DISTRIBUTED_TELEMETRY]` Full-scale telemetry aggregator tracking transit assets, maintenance, and live operational alerts through PostgreSQL and SignalR. |
 | FluxSync Energy | Cross-Platform | Flutter, .NET 10, TimescaleDB | `[SIMULATED_LOGISTICS]` Energy flow tracker managing time-series telemetry streams through TimescaleDB and Redis caching structures. |
-| Grace Boutique | Full-Stack | .NET 10, SvelteKit, Flutter, GraphQL | `[SECURE_ECOMMERCE]` Microservices network featuring vector semantic search pipelines and secure try-on system integration. |
+| [Grace Boutique](https://github.com/Anubisx404/Grace_Boutique) | Full-Stack | .NET 10, SvelteKit, Flutter, GraphQL | `[SECURE_ECOMMERCE]` Microservices network featuring vector semantic search pipelines and secure try-on system integration. |
 | SvelteRender SSR | Backend | .NET 10, Svelte Compiler, Bun | `[ISOLATED_SANDBOX]` High-speed SSR engine executing Svelte compilations inside isolated Bun-powered execution environments. |
-| Page.Ui Engine | Backend | .NET 10, GraphQL, SignalR, Docker | `[COMPILATION_SANDBOX]` Active interface compiler running isolated compilation networks for generated reactive elements. |
-| Mirox Editor | Desktop | .NET 10, Avalonia UI, ReactiveUI | `[CROSS_PLATFORM_UI]` Minimal desktop markdown platform structured around MVVM pattern and ReactiveUI pipelines. |
+| [Page.Ui Engine](https://github.com/page-ui/Backend_Department) | Backend | .NET 10, GraphQL, SignalR, Docker | `[COMPILATION_SANDBOX]` Active interface compiler running isolated compilation networks for generated reactive elements. |
+| [Mirox Editor](https://github.com/Anubisx404/Mirox) | Desktop | .NET 10, Avalonia UI, ReactiveUI | `[CROSS_PLATFORM_UI]` Cross-platform Markdown editor and viewer structured around MVVM, ReactiveUI, and Markdig rendering. |
+| [Extent](https://github.com/Anubisx404/Extent) | Developer Tooling | Go, OpenTelemetry, Docker, Grafana | `[OBSERVABILITY_BOOTSTRAP]` Repo-aware CLI that generates and verifies reviewable OpenTelemetry instrumentation and a local LGTM observability stack. |
+| [EduScan Pro](https://github.com/MuonByte/Education_Manager) | Education | Flutter, Node.js, OCR, GraphQL | `[AI_LEARNING]` Cross-platform study scanner and organizer with OCR, flashcards, adaptive tutoring, and collaborative learning workflows. |
+| Virtual Try-On Platform | AI Platform | .NET 10, Flutter, MinIO, BFL FLUX VTO | `[VIRTUAL_TRY_ON]` Provider-neutral virtual try-on service with secure object storage, background workers, and production-oriented deployment controls. |
 
 <br>
 
