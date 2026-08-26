@@ -89,12 +89,6 @@ Utilizes diverse architectures for cross-platform deployments, with deep operati
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/divider.svg" width="100%"/>
-</div>
-
-<br>
-
-<div align="center">
   <img src="https://komarev.com/ghpvc/?username=Anubisx404&style=for-the-badge&color=0d1117&label=PROFILE+VIEWS" alt="Profile Views"/>
 </div>
 
