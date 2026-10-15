@@ -32,19 +32,32 @@ Utilizes diverse architectures for cross-platform deployments, with deep operati
 
 ### [0x02 // SELECTED_PROJECTS]
 
-| Project | Domain | Stack | Description |
-|:---|:---|:---|:---|
-| [Dijkstra Visualizer](https://github.com/Anubisx404/Dijkstra-Algorithm-Visualization) | Simulation | Python, Manim, NumPy | `[ALGORITHMIC_GRAPH]` Mathematical visualization suite animating pathfinding convergence bounds and visual state tables using Manim. |
-| [Fourier Transform Suite](https://github.com/Anubisx404/Fourier-Transform) | Physics | C++20, Zig, x86-64 MASM | `[COMPUTATIONAL_PHYSICS]` High-performance decimation-in-time radix-2 FFT suite comparing native butterfly computations across C++20, Zig, and x86-64 Assembly. |
-| FleetPulse Transit | Full-Stack | .NET 10, Svelte 5, PostgreSQL | `[DISTRIBUTED_TELEMETRY]` Full-scale telemetry aggregator tracking transit assets, maintenance, and live operational alerts through PostgreSQL and SignalR. |
-| FluxSync Energy | Cross-Platform | Flutter, .NET 10, TimescaleDB | `[SIMULATED_LOGISTICS]` Energy flow tracker managing time-series telemetry streams through TimescaleDB and Redis caching structures. |
-| [Grace Boutique](https://github.com/Anubisx404/Grace_Boutique) | Full-Stack | .NET 10, SvelteKit, Flutter, GraphQL | `[SECURE_ECOMMERCE]` Microservices network featuring vector semantic search pipelines and secure try-on system integration. |
-| SvelteRender SSR | Backend | .NET 10, Svelte Compiler, Bun | `[ISOLATED_SANDBOX]` High-speed SSR engine executing Svelte compilations inside isolated Bun-powered execution environments. |
-| [Page.Ui Engine](https://github.com/page-ui/Backend_Department) | Backend | .NET 10, GraphQL, SignalR, Docker | `[COMPILATION_SANDBOX]` Active interface compiler running isolated compilation networks for generated reactive elements. |
-| [Mirox Editor](https://github.com/Anubisx404/Mirox) | Desktop | .NET 10, Avalonia UI, ReactiveUI | `[CROSS_PLATFORM_UI]` Cross-platform Markdown editor and viewer structured around MVVM, ReactiveUI, and Markdig rendering. |
-| [Extent](https://github.com/Anubisx404/Extent) | Developer Tooling | Go, OpenTelemetry, Docker, Grafana | `[OBSERVABILITY_BOOTSTRAP]` Repo-aware CLI that generates and verifies reviewable OpenTelemetry instrumentation and a local LGTM observability stack. |
-| [EduScan Pro](https://github.com/MuonByte/Education_Manager) | Education | Flutter, Node.js, OCR, GraphQL | `[AI_LEARNING]` Cross-platform study scanner and organizer with OCR, flashcards, adaptive tutoring, and collaborative learning workflows. |
-| Virtual Try-On Platform | AI Platform | .NET 10, Flutter, MinIO, BFL FLUX VTO | `[VIRTUAL_TRY_ON]` Provider-neutral virtual try-on service with secure object storage, background workers, and production-oriented deployment controls. |
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/Anubisx404/Dijkstra-Algorithm-Visualization"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/dijkstra.svg" width="100%" alt="Dijkstra Visualizer"/></a></td>
+    <td width="50%"><a href="https://github.com/Anubisx404/Fourier-Transform"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/fourier.svg" width="100%" alt="Fourier Transform Suite"/></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/fleetpulse.svg" width="100%" alt="FleetPulse Transit"/></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/fluxsync.svg" width="100%" alt="FluxSync Energy"/></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/Anubisx404/Grace_Boutique"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/grace-boutique.svg" width="100%" alt="Grace Boutique"/></a></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/svelterender.svg" width="100%" alt="SvelteRender SSR"/></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/page-ui/Backend_Department"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/pageui.svg" width="100%" alt="Page.Ui Engine"/></a></td>
+    <td width="50%"><a href="https://github.com/Anubisx404/Mirox"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/mirox.svg" width="100%" alt="Mirox Editor"/></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/Anubisx404/Extent"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/extent.svg" width="100%" alt="Extent"/></a></td>
+    <td width="50%"><a href="https://github.com/MuonByte/Education_Manager"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/eduscan.svg" width="100%" alt="EduScan Pro"/></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/virtual-try-on.svg" width="100%" alt="Virtual Try-On Platform"/></td>
+    <td width="50%"></td>
+  </tr>
+</table>
 
 <br>
 
