@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="290" viewBox="0 0 480 290">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+      <circle cx="0" cy="0" r="1" fill="rgba(255,255,255,0.15)"/>
+    </pattern>
+    <filter id="crt-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="480" height="290" fill="#000000"/>
+  <rect width="480" height="290" fill="url(#grid)"/>
+  <path d="M 16 16 L 464 16 L 464 274 L 16 274 Z" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <path d="M 12 16 L 20 16 M 16 12 L 16 20 M 12 274 L 20 274 M 16 270 L 16 278 M 460 16 L 468 16 M 464 12 L 464 20 M 460 274 L 468 274 M 464 270 L 464 278" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+
+  <line x1="20" y1="16" x2="460" y2="16" stroke="rgba(255,255,255,0.25)" stroke-width="1">
+    <animate attributeName="y1" values="16;274;16" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="16;274;16" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.05;0.4;0.05" dur="10s" repeatCount="indefinite"/>
+  </line>
+
+  <g>
+    <circle cx="396" cy="84" r="52" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    <circle cx="396" cy="84" r="40" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-dasharray="6,3"/>
+    <circle cx="396" cy="84" r="14" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1" stroke-dasharray="2,2"/>
+    <circle cx="396" cy="84" r="0" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1">
+      <animate attributeName="r" values="0;52" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.6;0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 396 84" to="360 396 84" dur="30s" repeatCount="indefinite"/>
+      <ellipse cx="396" cy="84" rx="40" ry="13" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+      <ellipse cx="396" cy="84" rx="40" ry="26" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.8" stroke-dasharray="4,4"/>
+      <ellipse cx="396" cy="84" rx="13" ry="40" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+      <ellipse cx="396" cy="84" rx="26" ry="40" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.8" stroke-dasharray="4,4"/>
+      <line x1="348" y1="84" x2="444" y2="84" stroke="rgba(255,255,255,0.2)" stroke-width="0.6"/>
+      <line x1="396" y1="36" x2="396" y2="132" stroke="rgba(255,255,255,0.2)" stroke-width="0.6"/>
+    </g>
+    <path d="M 391 84 L 401 84 M 396 79 L 396 89" stroke="#ffffff" stroke-width="1" filter="url(#crt-glow)"/>
+  </g>
+
+  <text x="32" y="44" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.35)">[0x06 // BACKEND]</text>
+  <text x="32" y="80" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Space Grotesk', sans-serif" font-size="24" font-weight="900" fill="#ffffff" letter-spacing="1" filter="url(#crt-glow)">SvelteRender SSR</text>
+  <text x="32" y="102" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" font-weight="bold" fill="rgba(255,255,255,0.55)" letter-spacing="2">ISOLATED_SANDBOX</text>
+  <line x1="32" y1="118" x2="448" y2="118" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="3,6"/>
+
+  <text x="32" y="142" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Space Grotesk', sans-serif" font-size="13.5" fill="rgba(255,255,255,0.75)">
+    <tspan x="32" dy="0">High-speed SSR engine executing Svelte compilations</tspan>
+    <tspan x="32" dy="19">inside isolated Bun-powered execution environments.</tspan>
+  </text>
+
+  <rect x="32.0" y="216" width="62.2" height="22" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.3)" stroke-width="0.8"/>
+  <text x="63.1" y="231" text-anchor="middle" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.85)">.NET 10</text>
+  <rect x="102.2" y="216" width="115.0" height="22" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.3)" stroke-width="0.8"/>
+  <text x="159.7" y="231" text-anchor="middle" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.85)">Svelte Compiler</text>
+  <rect x="225.2" y="216" width="35.8" height="22" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.3)" stroke-width="0.8"/>
+  <text x="243.1" y="231" text-anchor="middle" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.85)">Bun</text>
+
+  <g font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.25)">
+    <text x="32" y="262">T_ssr = T_compile + T_render</text>
+    <text x="448" y="262" text-anchor="end">[STATUS: PRIVATE]</text>
+  </g>
+</svg>
