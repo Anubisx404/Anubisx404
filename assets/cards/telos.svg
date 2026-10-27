@@ -44,26 +44,28 @@
     <path d="M 391 84 L 401 84 M 396 79 L 396 89" stroke="#ffffff" stroke-width="1" filter="url(#crt-glow)"/>
   </g>
 
-  <text x="32" y="44" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.35)">[0x04 // CROSS-PLATFORM]</text>
-  <text x="32" y="80" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Space Grotesk', sans-serif" font-size="24" font-weight="900" fill="#ffffff" letter-spacing="1" filter="url(#crt-glow)">FluxSync Energy</text>
-  <text x="32" y="102" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" font-weight="bold" fill="rgba(255,255,255,0.55)" letter-spacing="2">SIMULATED_LOGISTICS</text>
+  <text x="32" y="44" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.35)">[0x0A // EDUCATION]</text>
+  <text x="32" y="80" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Space Grotesk', sans-serif" font-size="24" font-weight="900" fill="#ffffff" letter-spacing="1" filter="url(#crt-glow)">Telos</text>
+  <text x="32" y="102" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" font-weight="bold" fill="rgba(255,255,255,0.55)" letter-spacing="2">AI_LEARNING</text>
   <line x1="32" y1="118" x2="448" y2="118" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="3,6"/>
 
   <text x="32" y="142" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Space Grotesk', sans-serif" font-size="13.5" fill="rgba(255,255,255,0.75)">
-    <tspan x="32" dy="0">Energy flow tracker managing time-series telemetry</tspan>
-    <tspan x="32" dy="19">streams through TimescaleDB and Redis caching</tspan>
-    <tspan x="32" dy="19">structures.</tspan>
+    <tspan x="32" dy="0">Cross-platform study scanner and organizer with OCR,</tspan>
+    <tspan x="32" dy="19">flashcards, adaptive tutoring, and collaborative</tspan>
+    <tspan x="32" dy="19">learning workflows.</tspan>
   </text>
 
   <rect x="32.0" y="216" width="62.2" height="22" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.3)" stroke-width="0.8"/>
   <text x="63.1" y="231" text-anchor="middle" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.85)">Flutter</text>
   <rect x="102.2" y="216" width="62.2" height="22" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.3)" stroke-width="0.8"/>
-  <text x="133.3" y="231" text-anchor="middle" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.85)">.NET 10</text>
-  <rect x="172.4" y="216" width="88.6" height="22" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.3)" stroke-width="0.8"/>
-  <text x="216.7" y="231" text-anchor="middle" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.85)">TimescaleDB</text>
+  <text x="133.3" y="231" text-anchor="middle" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.85)">Node.js</text>
+  <rect x="172.4" y="216" width="35.8" height="22" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.3)" stroke-width="0.8"/>
+  <text x="190.3" y="231" text-anchor="middle" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.85)">OCR</text>
+  <rect x="216.2" y="216" width="62.2" height="22" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.3)" stroke-width="0.8"/>
+  <text x="247.3" y="231" text-anchor="middle" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.85)">GraphQL</text>
 
   <g font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.25)">
-    <text x="32" y="262">P(t) = V(t)·I(t)</text>
-    <text x="448" y="262" text-anchor="end">[STATUS: PRIVATE]</text>
+    <text x="32" y="262">P(recall) = e^(−t/S)</text>
+    <text x="448" y="262" text-anchor="end">[STATUS: PUBLIC ↗]</text>
   </g>
 </svg>

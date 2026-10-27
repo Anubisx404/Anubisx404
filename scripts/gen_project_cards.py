@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""Generate the project card SVGs used in README.md (assets/cards/*.svg).
-
-Edit PROJECTS below, then run: python3 scripts/gen_project_cards.py
-"""
 import os
 import textwrap
 from xml.sax.saxutils import escape
@@ -20,7 +15,7 @@ PROJECTS = [
      [".NET 10", "Svelte 5", "PostgreSQL"],
      "Full-scale telemetry aggregator tracking transit assets, maintenance, and live operational alerts through PostgreSQL and SignalR.",
      None),
-    ("fluxsync", "FluxSync Energy", "Cross-Platform", "SIMULATED_LOGISTICS",
+    ("zenith", "Zenith", "Cross-Platform", "SIMULATED_LOGISTICS",
      ["Flutter", ".NET 10", "TimescaleDB"],
      "Energy flow tracker managing time-series telemetry streams through TimescaleDB and Redis caching structures.",
      None),
@@ -44,7 +39,7 @@ PROJECTS = [
      ["Go", "OpenTelemetry", "Docker", "Grafana"],
      "Repo-aware CLI that generates and verifies reviewable OpenTelemetry instrumentation and a local LGTM observability stack.",
      "https://github.com/Anubisx404/Extent"),
-    ("eduscan", "EduScan Pro", "Education", "AI_LEARNING",
+    ("telos", "Telos", "Education", "AI_LEARNING",
      ["Flutter", "Node.js", "OCR", "GraphQL"],
      "Cross-platform study scanner and organizer with OCR, flashcards, adaptive tutoring, and collaborative learning workflows.",
      "https://github.com/MuonByte/Education_Manager"),
@@ -58,26 +53,24 @@ MONO = "'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace"
 SANS = "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Space Grotesk', sans-serif"
 W, H = 480, 290
 PAD = 32
-MONO_CHAR = 0.6  # approx monospace glyph width as a fraction of font size
+MONO_CHAR = 0.6
 
-# Small equation per card, in the spirit of the header banner's corner formulas.
 FORMULAS = {
     "dijkstra": "d(v) = min(d(v), d(u) + w(u,v))",
     "fourier": "X_k = Σ x_n·e^(-2πikn/N)",
     "fleetpulse": "Δt = t_rx − t_tx",
-    "fluxsync": "P(t) = V(t)·I(t)",
+    "zenith": "P(t) = V(t)·I(t)",
     "grace-boutique": "cos θ = (a·b) / (‖a‖‖b‖)",
     "svelterender": "T_ssr = T_compile + T_render",
     "pageui": "f: AST → DOM",
     "mirox": "V = f(VM(M))",
     "extent": "span = ⟨trace_id, t₀, t₁⟩",
-    "eduscan": "P(recall) = e^(−t/S)",
+    "telos": "P(recall) = e^(−t/S)",
     "virtual-try-on": "I_out = G(I_person, I_garment)",
 }
 
 
 def emblem(cx, cy):
-    """Rotating orbital globe with a pulse ring, mirroring the header's right-hand globe."""
     return f"""  <g>
     <circle cx="{cx}" cy="{cy}" r="52" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
     <circle cx="{cx}" cy="{cy}" r="40" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-dasharray="6,3"/>
@@ -102,7 +95,7 @@ def emblem(cx, cy):
 def card(index, slug, name, domain, tag, stack, desc, url):
     status = "[STATUS: PUBLIC ↗]" if url else "[STATUS: PRIVATE]"
     lines = textwrap.wrap(desc, 56)
-    title_size = min(24, round(290 / (len(name) * 0.6), 1))  # keep long titles clear of the globe
+    title_size = min(24, round(290 / (len(name) * 0.6), 1))
     desc_svg = "\n".join(
         f'    <tspan x="{PAD}" dy="{0 if i == 0 else 19}">{escape(l)}</tspan>'
         for i, l in enumerate(lines)
@@ -119,7 +112,7 @@ def card(index, slug, name, domain, tag, stack, desc, url):
         )
         x += w + 8
 
-    L, T, R, B = 16, 16, W - 16, H - 16  # inner frame
+    L, T, R, B = 16, 16, W - 16, H - 16
     ticks = " ".join(
         f"M {px - 4} {py} L {px + 4} {py} M {px} {py - 4} L {px} {py + 4}"
         for px in (L, R) for py in (T, B)

@@ -39,7 +39,7 @@ Utilizes diverse architectures for cross-platform deployments, with deep operati
   </tr>
   <tr>
     <td width="50%"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/fleetpulse.svg" width="100%" alt="FleetPulse Transit"/></td>
-    <td width="50%"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/fluxsync.svg" width="100%" alt="FluxSync Energy"/></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/zenith.svg" width="100%" alt="Zenith"/></td>
   </tr>
   <tr>
     <td width="50%"><a href="https://github.com/Anubisx404/Grace_Boutique"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/grace-boutique.svg" width="100%" alt="Grace Boutique"/></a></td>
@@ -51,7 +51,7 @@ Utilizes diverse architectures for cross-platform deployments, with deep operati
   </tr>
   <tr>
     <td width="50%"><a href="https://github.com/Anubisx404/Extent"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/extent.svg" width="100%" alt="Extent"/></a></td>
-    <td width="50%"><a href="https://github.com/MuonByte/Education_Manager"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/eduscan.svg" width="100%" alt="EduScan Pro"/></a></td>
+    <td width="50%"><a href="https://github.com/MuonByte/Education_Manager"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/telos.svg" width="100%" alt="Telos"/></a></td>
   </tr>
   <tr>
     <td width="50%"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/virtual-try-on.svg" width="100%" alt="Virtual Try-On Platform"/></td>
