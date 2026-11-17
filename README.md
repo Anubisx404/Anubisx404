@@ -4,8 +4,9 @@
 
 <div align="center">
   <a href="https://github.com/Anubisx404"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white" height="28" alt="GitHub"/></a>&nbsp;
-  <a href="https://www.linkedin.com/in/mohamed-alaa-231b972"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"/></a>&nbsp;
-  <a href="mailto:mohamedalaaeco@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/mohamed-alaa-129361312"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"/></a>&nbsp;
+  <a href="mailto:mohamedalaaeco@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email"/></a>&nbsp;
+  <a href="https://mohamedalaa.dev"><img src="https://img.shields.io/badge/Portfolio-mohamedalaa.dev-FF3B00?style=for-the-badge" height="28" alt="Portfolio"/></a>
 </div>
 
 <br>
@@ -55,7 +56,11 @@ Utilizes diverse architectures for cross-platform deployments, with deep operati
   </tr>
   <tr>
     <td width="50%"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/virtual-try-on.svg" width="100%" alt="Virtual Try-On Platform"/></td>
-    <td width="50%"></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/confine.svg" width="100%" alt="Confine"/></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/resolute.svg" width="100%" alt="Resolute"/></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/cards/agentgrep.svg" width="100%" alt="agentgrep"/></td>
   </tr>
 </table>
 
@@ -67,7 +72,22 @@ Utilizes diverse architectures for cross-platform deployments, with deep operati
 
 <br>
 
-### [0x03 // TECH_STACK]
+### [0x03 // OPEN_SOURCE_&_TEAM_CONTRIBUTIONS]
+
+| Project | Role | Verified Scope |
+|:---|:---|:---|
+| **[bynat-lab/bynat](https://github.com/bynat-lab/bynat)** | Core Contributor | Decomposed `Cleaning.py` and `CacheManager`, implemented the non-mutating `df.bynat` pandas accessor API, added `mypy` CI + PEP 561 static stubs with synced docstrings, and executed the `TEST-03`–`TEST-07` testing constitution reorganization (`22` commits). |
+| **[MindFeed-Org/MindFeed](https://github.com/MindFeed-Org/MindFeed)** | Backend & Clean Architecture | Built Supabase migrations, RLS hardening, `SECURITY INVOKER` RPC triggers, `auth-confirm` 302 Edge Function, Feature-First Clean Architecture (`auth`, `profile`, `home`, `reader`, `add_article`), offline Hive reader, swipe deck, and unsigned iOS IPA CI workflow (`41` commits). |
+
+<br>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Anubisx404/Anubisx404/main/assets/divider.svg" width="100%"/>
+</div>
+
+<br>
+
+### [0x04 // TECH_STACK]
 
 <div align="center">
 

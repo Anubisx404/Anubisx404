@@ -47,6 +47,18 @@ PROJECTS = [
      [".NET 10", "Flutter", "MinIO", "BFL FLUX VTO"],
      "Provider-neutral virtual try-on service with secure object storage, background workers, and production-oriented deployment controls.",
      None),
+    ("confine", "Confine", "Developer Tooling", "SPATIAL_ANALYZER",
+     ["Go 1.26", "WebGL2", "Canvas 2D", "go:embed"],
+     "Zero-dependency Go workstation rendering local repositories as 2D/3D spatial treemaps down to syntax-highlighted lines.",
+     None),
+    ("resolute", "Resolute", "Cybersecurity", "DECISION_AUDIT_LAB",
+     ["Python AST", "ASVS 5.0", "SARIF", "PolicyGate"],
+     "Decision-governed AI audit pipeline pairing deterministic static verification, scanner adapters, and integrity-checked verdicts.",
+     None),
+    ("agentgrep", "agentgrep", "Machine Learning", "HYBRID_CODE_RETRIEVAL",
+     ["TypeScript", "ONNX", "BM25", "Python"],
+     "Offline-first local code search engine and evaluation suite fusing Okapi BM25, Laya ONNX cross-encoders, and kev-0.8b reranking.",
+     None),
 ]
 
 MONO = "'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace"
@@ -67,6 +79,9 @@ FORMULAS = {
     "extent": "span = ⟨trace_id, t₀, t₁⟩",
     "telos": "P(recall) = e^(−t/S)",
     "virtual-try-on": "I_out = G(I_person, I_garment)",
+    "confine": "LOD_0 -> LOD_1 -> LOD_2",
+    "resolute": "V = PolicyGate(checks, cov)",
+    "agentgrep": "R_k = fuse(BM25, Laya)",
 }
 
 
